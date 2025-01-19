@@ -1,0 +1,81 @@
+.skill{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    margin-top: 190px;
+    align-items: center;
+}
+
+.skill *{
+    padding: 0 10px;
+}
+
+.skill img {
+    height: 30px;
+}
+
+.skill p{
+    font-size: 36px;
+    padding-top: 13px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 190px;
+}
+
+.bar{
+    width: 150px;
+}
+
+.skills *{
+    display: block;
+    height: 150px;
+}
+
+.bigbar{
+    width: 100vw;
+}
+
+.rea{
+    position: relative;
+    animation: rotate 20s linear infinite;
+
+}
+
+.jav{
+    animation: float 2s linear infinite;
+}
+
+.py{
+    animation: float 2s linear infinite;
+
+}
+
+.rea:hover, .jav:hover, .py:hover, .cpp:hover{
+    animation: flip 1s linear;
+    animation-iteration-count: 1;
+}
+
+.cpp{
+    animation: float 2s linear infinite;
+}
+
+
+@keyframes rotate {
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(900deg);}
+}
+
+@keyframes float {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(-10px);}
+    100%{transform: translateY(0px);}
+}
+
+@keyframes flip{
+    50% {transform: rotateY(180deg);}
+    to {transform: rotateY(360deg);}
+}
+

@@ -1,0 +1,18 @@
+*{
+    font-family: "Karantina", serif;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+
+    background-image: url(assets/home.svg);
+    background-size: contain;
+    height: 100vh;
+    min-width: 100vw;
+}
+
+.hero2{
+    height: 80vh;
+}

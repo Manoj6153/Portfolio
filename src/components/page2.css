@@ -1,0 +1,58 @@
+.Laboratory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.Laboratory img {
+    height: 30px;
+}
+
+.Laboratory *{
+    padding: 0 10px;
+}
+
+.Laboratory p{
+    font-size: 36px;
+    padding-top: 13px;
+}
+.container{
+    height: 250px;
+    border: 3px solid#30ADA3;
+    width: 317px;
+    padding: 0.4rem;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.container1 h3{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+}
+
+.container1 img{
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+    border-radius: 5px;
+    padding-bottom: 3px;
+}
+
+.container1 hr{
+    border:1.5px solid #30ADA3;
+}
+
+.container1 h3:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+    height: 50vh;
+}

@@ -1,0 +1,61 @@
+.navbar{
+    height: 4rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0.7rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    font-weight: 400;
+    backdrop-filter: blur(0.8px);
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    padding: 7px;
+    font-size: 32px;
+    font-weight: 400;
+    transition: 0.7s;
+}
+
+.logo-name:hover{
+    cursor: pointer;
+}
+
+.logo:hover{
+    margin-right: 5px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    width: 40vw;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.menuItem{
+    margin: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.menuItem:hover{
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid;
+    border-color: #30ADA3;
+}
+
+.active{
+    border-bottom: 3px solid #30ADA3;
+    padding-bottom: 0.3rem;
+}
+
